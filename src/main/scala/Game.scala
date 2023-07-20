@@ -211,6 +211,7 @@ import AwayElos.*
 import HomeProbElos.*
 import AwayProbElos.*
 
+// We haven't implemented the playoff round in our game management because we haven't managed to deal with the fact that it can be optional.
 final case class Game(
     date: GameDate,
     season: SeasonYear,
@@ -286,7 +287,8 @@ object Game {
         he,
         ae,
         hpe,
-        ape) = Game.unapply(g)
+        ape
+      ) = Game.unapply(g)
       (
         GameDate.unapply(d).toString,
         SeasonYear.unapply(y),

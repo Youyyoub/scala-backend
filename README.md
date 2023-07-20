@@ -24,8 +24,8 @@ It is then possible to communicate with the server via the following endpoints:
 - Get the total number of games in the database for a given team: http://localhost:8080/games/history/{team}
 
 ## Example endpoints
-http://localhost:8080/game/latests/LAD/MIL
-http://localhost:8080/game/predict/LAD/MIL
-http://localhost:8080/team/elo/LAD
-http://localhost:8080/games/count
-http://localhost:8080/games/history/LAD
+http://localhost:8080/game/latests/LAD/MIL<br>
+http://localhost:8080/game/predict/LAD/MIL<br>
+http://localhost:8080/team/elo/LAD<br>
+http://localhost:8080/games/count<br>
+http://localhost:8080/games/history/LAD<br>

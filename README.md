@@ -7,11 +7,11 @@ Karam MANSOUR, Sofian YAHYAOUI, Ayyoub ZEBDA
 ## Overview
 The application is a REST API that communicates with a database of baseball games provided by MLB.
 
-## Exécuter l'application
+## Run the application
 Simply run the `src/main/scala/MlbApi.scala` file to start the server. If the http://localhost:8080/text route returns the "Hello MLB Fans!" string, it works!
 
 You can change the file used by modifying the path in the following line in the `appLogic` method of the `MlbApi` class:
-`CSVReader.open(new  File("./src/data/mlb_elo_latest.csv"))`
+`CSVReader.open(new File("./src/data/mlb_elo_latest.csv"))`
 
 You can also change your port by modifyling the following line in the `run` method of the `MlbApi` class:
 `Server.defaultWithPort(8080)`
